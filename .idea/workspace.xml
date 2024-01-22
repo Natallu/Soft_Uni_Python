@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c16b5f2-11be-4df0-8ab5-6eff59fd96a4" name="Changes" comment="First steps in coding - Practice">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4c16b5f2-11be-4df0-8ab5-6eff59fd96a4" name="Changes" comment="For Loop - Lab exercises">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +20,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -28,10 +33,24 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Natallu&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="28c6f302-badc-4efb-874b-b28348c4fbd7" />
+        <option name="url" value="https://github.com/Natallu/Soft_Uni_Python.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2ad8ZtdLj1WuCmUzrsxpNCbZJhF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -40,32 +59,67 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.e1_usd_to_bgn.executor": "Run",
-    "Python.e2_radians_to_degrees.executor": "Run",
-    "Python.e3_deposit_calculator.executor": "Run",
-    "Python.e4_vacation_books_list.executor": "Run",
-    "Python.e5_supplies_for_school.executor": "Run",
-    "Python.e6_repainting.executor": "Run",
-    "Python.e7_food_delivery.executor": "Run",
-    "Python.m4_vegetable_market.executor": "Run",
-    "Python.m5_training_lab.executor": "Run",
-    "Python.m6_fishland.executor": "Run",
-    "Python.m7_house_painting.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/natali/PycharmProjects/Soft_Uni_Python/programming_basics/1_first_steps_in_coding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.01_count_same_values.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_excellent_result.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_students_grades.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_record_unique_names.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_parking_lot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_softuni_party.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_shopping.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08_crossroads.executor&quot;: &quot;Run&quot;,
+    &quot;Python.e10_cups_and_bottles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.e1_unique_usernames.executor&quot;: &quot;Run&quot;,
+    &quot;Python.e1_usd_to_bgn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.e2_radians_to_degrees.executor&quot;: &quot;Run&quot;,
+    &quot;Python.e3_chat_codes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.e3_deposit_calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.e3_histogram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.e4_vacation_books_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.e5_supplies_for_school.executor&quot;: &quot;Run&quot;,
+    &quot;Python.e6_balanced_paretheses.executor&quot;: &quot;Run&quot;,
+    &quot;Python.e6_repainting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.e7_food_delivery.executor&quot;: &quot;Run&quot;,
+    &quot;Python.e9_key_revolver.executor&quot;: &quot;Run&quot;,
+    &quot;Python.m10_profit.executor&quot;: &quot;Run&quot;,
+    &quot;Python.m10_weather_forecast_part_two.executor&quot;: &quot;Run&quot;,
+    &quot;Python.m11_happycat_parking.executor&quot;: &quot;Run&quot;,
+    &quot;Python.m12_the_song_of_the_wheels.executor&quot;: &quot;Run&quot;,
+    &quot;Python.m13_prime_pairs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.m14_password_generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.m2_hospital.executor&quot;: &quot;Run&quot;,
+    &quot;Python.m3_lucky_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.m3_stream_of_letters.executor&quot;: &quot;Run&quot;,
+    &quot;Python.m4_car_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.m4_vegetable_market.executor&quot;: &quot;Run&quot;,
+    &quot;Python.m5_challenge_the_wedding.executor&quot;: &quot;Run&quot;,
+    &quot;Python.m5_training_lab.executor&quot;: &quot;Run&quot;,
+    &quot;Python.m6_fishland.executor&quot;: &quot;Run&quot;,
+    &quot;Python.m6_wedding_seats.executor&quot;: &quot;Run&quot;,
+    &quot;Python.m7_house_painting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.m7_safe_passwords_generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.m8_secret_doors_lock.executor&quot;: &quot;Run&quot;,
+    &quot;Python.m9_sum_of_two_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_file.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/natali/PycharmProjects/Soft_Uni_Python/programming_basics/1_first_steps_in_coding&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/programming_basics/1_first_steps_in_coding" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/programming_basics" />
+      <recent name="$PROJECT_DIR$/03_advanced/1_lists_as_stacks_and_queues" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.m10_weather_forecast_part_two">
-    <configuration name="e2_radians_to_degrees" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.e1_unique_usernames">
+    <configuration name="02_students_grades" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Soft_Uni_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,11 +128,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programming_basics/1_first_steps_in_coding" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_advanced/2_tuples_and_sets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programming_basics/1_first_steps_in_coding/e2_radians_to_degrees.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_advanced/2_tuples_and_sets/02_students_grades.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -87,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="e6_repainting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03_record_unique_names" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Soft_Uni_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,11 +150,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programming_basics/1_first_steps_in_coding" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_advanced/2_tuples_and_sets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programming_basics/1_first_steps_in_coding/e6_repainting.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_advanced/2_tuples_and_sets/03_record_unique_names.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +163,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="m10_weather_forecast_part_two" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="04_parking_lot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Soft_Uni_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,11 +172,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programming_basics/1_first_steps_in_coding" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_advanced/2_tuples_and_sets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programming_basics/1_first_steps_in_coding/m10_weather_forecast_part_two.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_advanced/2_tuples_and_sets/04_parking_lot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +185,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="m6_fishland" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="05_softuni_party" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Soft_Uni_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,11 +194,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programming_basics/1_first_steps_in_coding" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_advanced/2_tuples_and_sets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programming_basics/1_first_steps_in_coding/m6_fishland.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_advanced/2_tuples_and_sets/05_softuni_party.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,7 +207,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="m7_house_painting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="e1_unique_usernames" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Soft_Uni_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,11 +216,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/programming_basics/1_first_steps_in_coding" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_advanced/2_tuples_and_sets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/programming_basics/1_first_steps_in_coding/m7_house_painting.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_advanced/2_tuples_and_sets/e1_unique_usernames.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.m10_weather_forecast_part_two" />
-        <item itemvalue="Python.m7_house_painting" />
-        <item itemvalue="Python.m6_fishland" />
-        <item itemvalue="Python.e6_repainting" />
-        <item itemvalue="Python.e2_radians_to_degrees" />
+        <item itemvalue="Python.e1_unique_usernames" />
+        <item itemvalue="Python.05_softuni_party" />
+        <item itemvalue="Python.04_parking_lot" />
+        <item itemvalue="Python.03_record_unique_names" />
+        <item itemvalue="Python.02_students_grades" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +287,127 @@
       <option name="project" value="LOCAL" />
       <updated>1704640437279</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="First steps in coding - more exercises">
+      <option name="closed" value="true" />
+      <created>1704642189001</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704642189001</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Conditional Statements - Lab exercises">
+      <option name="closed" value="true" />
+      <created>1704739214888</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704739214888</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Conditional Statements - Practice(Exercises)">
+      <option name="closed" value="true" />
+      <created>1704827359627</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704827359627</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Conditional Statements - more exercises">
+      <option name="closed" value="true" />
+      <created>1704999738179</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704999738179</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Conditional Statements advanced - Lab exercises">
+      <option name="closed" value="true" />
+      <created>1705145383942</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705145383942</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Conditional Statements advanced - Lab exercises">
+      <option name="closed" value="true" />
+      <created>1705250765111</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705250765111</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Conditional Statements advanced - Practice (exercises)">
+      <option name="closed" value="true" />
+      <created>1705606039378</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705606039378</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Conditional Statements advanced - more exercises">
+      <option name="closed" value="true" />
+      <created>1705690628037</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705690628037</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Conditional Statements advanced - more exercises">
+      <option name="closed" value="true" />
+      <created>1705744435584</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705744435584</updated>
+    </task>
+    <task id="LOCAL-00014" summary="For Loop - Lab exercises">
+      <option name="closed" value="true" />
+      <created>1705853611606</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1705853611606</updated>
+    </task>
+    <task id="LOCAL-00015" summary="For Loop - Lab exercises">
+      <option name="closed" value="true" />
+      <created>1705853857059</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1705853857059</updated>
+    </task>
+    <task id="LOCAL-00016" summary="For Loop - Lab exercises">
+      <option name="closed" value="true" />
+      <created>1705853979408</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1705853979408</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1705854338315</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1705854338315</updated>
+    </task>
+    <task id="LOCAL-00018" summary="For Loop - Lab exercises">
+      <option name="closed" value="true" />
+      <created>1705946844543</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1705946844543</updated>
+    </task>
+    <task id="LOCAL-00019" summary="For Loop - Lab exercises">
+      <option name="closed" value="true" />
+      <created>1705947340205</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1705947340205</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,6 +424,60 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exercises from the first lecture" />
     <MESSAGE value="First steps in coding - Practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="First steps in coding - Practice" />
+    <MESSAGE value="First steps in coding - more exercises" />
+    <MESSAGE value="Conditional Statements - Lab exercises" />
+    <MESSAGE value="Conditional Statements - Practice(Exercises)" />
+    <MESSAGE value="Conditional Statements - more exercises" />
+    <MESSAGE value="Conditional Statements advanced - Lab exercises" />
+    <MESSAGE value="Conditional Statements advanced - Practice (exercises)" />
+    <MESSAGE value="Conditional Statements advanced - more exercises" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="For Loop - Lab exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="For Loop - Lab exercises" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/03_advanced/1_lists_as_stacks_and_queues/e8_crossroads.py</url>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/03_advanced/1_lists_as_stacks_and_queues/e9_key_revolver.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/03_advanced/1_lists_as_stacks_and_queues/e9_key_revolver.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/03_advanced/1_lists_as_stacks_and_queues/e9_key_revolver.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/03_advanced/1_lists_as_stacks_and_queues/e9_key_revolver.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/03_advanced/1_lists_as_stacks_and_queues/e9_key_revolver.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/03_advanced/1_lists_as_stacks_and_queues/e9_key_revolver.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/03_advanced/1_lists_as_stacks_and_queues/e9_key_revolver.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
